@@ -31,13 +31,13 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
   - $todays_logs[] = "&#128293; 3 new errors logged today.";
   - $todays_logs[] = "&#xF272; All milestone completed for phase one.";
 
-## Example email output
-``` Greetings from your DevBot.
-- Finish Mileston 2
--- Wrap up admin/temes.
-- DevBot
+  ## Example email output
+  ``` Greetings from your DevBot.
+  - Finish Mileston 2
+  -- Wrap up admin/temes.
+  - DevBot
 
-## Running the DevBot
-- manually or by cron
-- - manually
-- - php devbot/devbot_proc.php
+  ## Running the DevBot
+  - manually or by cron
+  - - manually
+  ```php devbot/devbot_proc.php
