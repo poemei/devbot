@@ -1,4 +1,12 @@
+
 <?php
+/*
+ * devthink
+ * tasks and stuff
+ * for email go to the email_report function
+ * and edit the to and from
+*/
+
 class devthink
 {
     public static $logfile = __DIR__ . '/../dev/dev.log';
