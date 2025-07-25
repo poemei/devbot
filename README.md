@@ -40,4 +40,4 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
 ## Running the DevBot
 - manually or by cron
 - - manually
-- - ```php devbot/devbot_proc.php
+- - php devbot/devbot_proc.php
