@@ -1,5 +1,5 @@
 # DevBot
-DevBot is the soul of the forge - a PHP-powered development companion designed to track, log, summarize and report daily insights across yur project. It powers the ChaosCMS project and reports to the Dev Team, only those things that matter.
+DevBot is the soul of the forge - a PHP-powered development companion designed to track, log, summarize and report daily insights across your project. It powers the ChaosCMS project and reports to the Dev Team, only those things that matter.
 
 ## Features
 - Tracks dev activity via the 'devclock' plugin
@@ -15,15 +15,15 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
   - devbot_config.php
   - plugins
   - -filewatch.php (the plugin that watches your directories and files)
-  - devclock.php (plugin that tracks development time)
-  - devthink.php (plugin that allows you to track tasks and ideas)
-  - YOUR plugin, should yu wish to expand the devbot.
+  -- devclock.php (plugin that tracks development time)
+  -- devthink.php (plugin that allows you to track tasks and ideas)
+  -- YOUR plugin.php, should yu wish to expand the devbot.
  
   ## Plugin Design
   Each plugin
   - lives in 'devbot/plugins'
-  - Get autoloaded by devbot
-  - Push strings into '$todays_logs[]
+  - Gets autoloaded by devbot
+  - Pushes strings into '$todays_logs[]
   - Uses standard log or JSON I/O
  
   ## Example output
