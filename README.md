@@ -28,5 +28,5 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
  
   ## Example output
   '''php
-  $todays_logs[] = "&#128293; 3 new errors logged today.";
-  $todays_logs[] = "U+2705; All milestone competed for phase one.";
+  - $todays_logs[] = "&#128293; 3 new errors logged today.";
+  - $todays_logs[] = "&#xF272; All milestone competed for phase one.";
