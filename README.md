@@ -14,7 +14,7 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
   <ul>
     <li>devbot_proc.php (the devbot itself)</li>
     <li>devbot_config.php</li>
-     <li><strong>plugins</strong>strong>
+     <li><strong>plugins</strong>
        <ul>
         <li>filewatch.php (watches your directories and files for changes)</li>
         <li>devclock.php (track development time)</li>
@@ -31,11 +31,11 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
     <li>Gets autoloaded by devbot</li>
     <li>Pushes strings into <code>$todays_logs[]</code></li>
     <li>Uses standard log or JSON I/O</li>
-    </ul>
+ </ul>
     
   ## Running the DevBot
   - manually or by cron
-   <code>php devbot/devbot_proc.php</code>
+   - - <code>php devbot/devbot_proc.php</code>
   
   ### Example Output
   ```
