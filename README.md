@@ -25,6 +25,10 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
   - Gets autoloaded by devbot
   - Pushes strings into '$todays_logs[]
   - Uses standard log or JSON I/O
+    
+  ## Running the DevBot
+  - manually or by cron
+  ```php devbot/devbot_proc.php
  
   ## Example output
   ```php
@@ -36,8 +40,3 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
   - Finish Mileston 2
   -- Wrap up admin/temes.
   - DevBot
-
-  ## Running the DevBot
-  - manually or by cron
-  - - manually
-  ```php devbot/devbot_proc.php
