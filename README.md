@@ -12,12 +12,12 @@ DevBot is the soul of the forge - a PHP-powered development companion designed t
 - ## Directory Structure
 - devbot
 - - devbot_proc.php (the devbot itself)
-  - devbot_config.php
-  - plugins
+- - devbot_config.php
+- - plugins
   - -filewatch.php (the plugin that watches your directories and files)
-  -- devclock.php (plugin that tracks development time)
-  -- devthink.php (plugin that allows you to track tasks and ideas)
-  -- YOUR plugin.php, should yu wish to expand the devbot.
+  - -devclock.php (plugin that tracks development time)
+  - -devthink.php (plugin that allows you to track tasks and ideas)
+  - -YOUR plugin.php, should yu wish to expand the devbot.
  
   ## Plugin Design
   Each plugin
